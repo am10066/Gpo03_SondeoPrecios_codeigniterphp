@@ -1,25 +1,19 @@
 <?php
 defined('BASEPATH') OR exit('No direct SCRIPT access allowed');
 
-class Sondeo extends CI_Controller{
+class Inicio extends CI_Controller{
 
   public function index(){
-
-    $this->load->model('Sondeo_model');
 
     $data=array(
       'head'=>$this->load->view('plantilla/head','',TRUE),
       'header'=>$this->load->view('plantilla/header','',TRUE),
       'aside'=>$this->load->view('plantilla/aside','',TRUE),
-      'sondeos'=>$this->Sondeo_model->consultar(),
 
     );
 
-
-
-
-    $this->load->view('sondeo', $data);
-
+    $this->load->view('inicio', $data);
 
   }
+
 }
