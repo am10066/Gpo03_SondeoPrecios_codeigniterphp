@@ -23,7 +23,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
+<<<<<<< HEAD
 $config['base_url'] = 'http://localhost/Gpo03_SondeoPrecios_codeigniterphp';
+=======
+$config['base_url'] = 'http://localhost:8080/Gpo03_SondeoPrecios_codeigniterphp/';
+>>>>>>> 137b4e881be5274e64ba8b496b5e901dc23e5114
 
 /*
 |--------------------------------------------------------------------------
