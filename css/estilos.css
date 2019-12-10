@@ -141,3 +141,12 @@ thead{
   border-bottom: solid 2px black;
   color: white;
 }
+
+form{
+
+widows: 25%;
+border: 1px solid rgb(7, 167, 230);
+margin: 20px;
+padding: 20px;
+
+}

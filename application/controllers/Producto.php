@@ -12,6 +12,8 @@ class Producto extends CI_Controller{
       'header'=>$this->load->view('plantilla/header','',TRUE),
       'aside'=>$this->load->view('plantilla/aside','',TRUE),
       'productos'=>$this->Producto_model->consultar(),
+      'producto_marca'=>$this->Producto_model->getProductoNombre(),
+      'presentacion'=>$this->Producto_model->getPresentacion(),
 
     );
 
